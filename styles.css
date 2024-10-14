@@ -1,0 +1,162 @@
+/* Body background */
+.body-class {
+  background-color: #f0f4f8; /* Soft light blue for a cleaner, modern look */
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern, clean font */
+  color: #333; /* Universal dark gray text color for good readability */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+.header-class {
+  background-color: #003366; /* Dark blue for a sleek, professional look */
+  color: #ffffff; /* White font color for visibility */
+  padding: 20px;
+  text-align: center;
+}
+
+.header-class h1 {
+  margin: 0;
+  font-size: 3rem; /* Larger title for impact */
+}
+
+.nav-class {
+  background-color: #004080; /* Slightly lighter blue for navigation */
+  padding: 10px;
+  text-align: center;
+}
+
+.nav-link-class {
+  color: #ffffff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.nav-link-class:hover {
+  font-weight: bold;
+  border-bottom: 2px solid #ffffff; /* Underline on hover for emphasis */
+}
+
+/* Titles */
+.title-class {
+  color: #ff6f61; /* Soft red-orange for title for a standout look */
+}
+
+.section-title-class {
+  color: #00509e; /* Bright blue for section titles */
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* General text */
+.text-class {
+  color: #555555; /* A mid-gray for good contrast with the background */
+  font-size: 1.1rem;
+  margin: 15px 0;
+  padding: 0 15px;
+  text-align: justify;
+}
+
+/* Image styling */
+.image-class {
+  border: 8px solid #007acc; /* Complementary border to match overall palette */
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px; /* Rounded corners for a modern effect */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Form styling */
+.form-class {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.label-class {
+  color: #333;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.input-class {
+  padding: 12px;
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.button-class {
+  background-color: #007acc;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.button-class:hover {
+  background-color: #005a99; /* Darken on hover */
+}
+
+/* Blockquote styling */
+.blockquote-class {
+  background-color: #f0f4f8;
+  padding: 20px;
+  border-left: 5px solid #00509e;
+  margin: 20px;
+  font-style: italic;
+}
+
+.cite-class {
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+  color: #333;
+}
+
+/* Footer styling */
+.footer-class {
+  background-color: #003366;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+  .nav-class {
+    display: block;
+    text-align: center;
+  }
+
+  .section-title-class {
+    font-size: 1.5rem;
+  }
+
+  .form-class {
+    padding: 15px;
+  }
+
+  .input-class {
+    width: 100%;
+  }
+}
